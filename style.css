@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+body{
+    padding: 0;
+}
+.start{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Rubik Bubbles', cursive;
+    font-size: 32px;
+}
+.start-button{
+    padding: 10px 20px 10px 20px;
+    background-color: #C3AE78;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.wrapper{
+     min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #001427;
+    margin: -10px;
+    color: white;
+}
+
+.grid{
+    width: 400px;
+    height: 600px;
+    background-image: url('/space.jpg');
+    background-size: cover;
+    position: relative;
+}
+
+.doodler{
+    width: 60px;
+    height: 85px;
+    position: absolute;
+}
+
+
+.platform{
+    width: 85px;
+    height: 15px;
+    background-color: #6d0ef1;
+    box-shadow: black 4px 4px;
+    border-radius: 20px;
+    position: absolute;
+}
+
+
+.score{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    font-size: 32px;
+    color: white;
+}
